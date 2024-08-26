@@ -1,0 +1,42 @@
+---
+tags:
+  - Blog
+  - Experiences
+  - Working
+---
+#Done 
+[参考链接来自](https://blog.csdn.net/xx_star1204/article/details/88187631)
+
+```
+-- UPDATE SJTASK.JOB_MAIN SET STATUS = 9, ERROR_NOTE = '20240604-5月重复下发任务清理' 
+WHERE
+	STORE_NO = '00143' 
+	AND PROCESS_CODE = 'DHJG-002' 
+	AND CREATE_TIME >= TO_DATE( '2024-5-1', 'YYYY-MM-DD' ) 
+	AND CREATE_TIME < TO_DATE( '2024-6-1', 'YYYY-MM-DD' ) 
+	AND STATUS = 5 
+	AND ID NOT IN (
+	SELECT
+		ID 
+	FROM
+		JOB_MAIN a 
+	WHERE
+		FINISH_TIME IN (
+		SELECT
+			MIN( FINISH_TIME ) 
+		FROM
+			JOB_MAIN b 
+		WHERE
+			a.OUT_ID = b.OUT_ID 
+			AND a.GROUP_NAME = b.GROUP_NAME 
+			AND STORE_NO = '00143' 
+			AND PROCESS_CODE = 'DHJG-002' 
+			AND CREATE_TIME >= TO_DATE( '2024-5-1', 'YYYY-MM-DD' ) 
+			AND CREATE_TIME < TO_DATE( '2024-6-1', 'YYYY-MM-DD' ) 
+			AND STATUS = 5 
+		GROUP BY
+			OUT_ID,
+			GROUP_NAME 
+		) 
+	)
+```

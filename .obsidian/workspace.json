@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "fcb7a198f6c61cc4",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1ad436fe95fb09a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "欢迎.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "0acc57cb2d0238c8",
         "type": "tabs",
         "children": [
@@ -99,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "欢迎.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "欢迎.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "欢迎.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -160,8 +138,45 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1ad436fe95fb09a2",
+  "active": "ed15221a4fdaaf74",
   "lastOpenFiles": [
-    "欢迎.md"
+    "HomePage.md",
+    "如何打造自动化HomePage.md",
+    "欢迎.md",
+    "导出文件的两种写法.md",
+    "2024-08-12.md",
+    "Working/ipos培训及研究/20240808.md",
+    "Working/Experiences/导出文件的两种写法.md",
+    "Working/Experiences/如何提交代码、暂存代码、切换分支.md",
+    "Working/Experiences/关于父组件数据更新，子组件defineprops需要点击两次后才能接收到更新后数据的问题.md",
+    "Working/Experiences/关于如何实现打印-用print-js插件以及产生条码-用jsbarcode.md",
+    "Working/Experiences/关于v-show和v-if的不同.md",
+    "Working/Experiences/关于props和attrs 以及报错Extraneous non-props attributes (xxx) were passed to component but could not be.md",
+    "Working/Experiences/关于el-table 通过点击事件获取当前行的所有信息.md",
+    "Working/Experiences/使用同事封装好的table(使用el-table)，修改表头背景色怎么实现.md",
+    "Working/Experiences/使用el-input，已经v-model，但是无法输入问题解决.md",
+    "Working/Experiences/vue项目netWork：unaviliable   以及解决后地址无法访问问题  解决方案.md",
+    "Working/Experiences/vue3 一些可能以后要用到的代码留存-如何获取当前年月.md",
+    "Working/Experiences/post传参数，但是后端无法接收问题解决.md",
+    "Working/Experiences/oracle 使用group by a,b...的时候，如何取到非a,b...的字段的数据.md",
+    "Working/Experiences/000-模板.md",
+    "Working/ipos培训及研究",
+    "Working/Experiences",
+    "Working",
+    "Learning/Problems and Solutions/Could not install Gradle distribution from xxx.Reason java.net.SocketTimeoutException Read timed out.md",
+    "Learning/Problems and Solutions/000-模板 1.md",
+    "Learning/Problems and Solutions",
+    "Learning/FrontEnd/Flutter/images/Pasted image 20240718200350.png",
+    "Learning/FrontEnd/Flutter/images/Pasted image 20240717222601.png",
+    "Learning/FrontEnd/Flutter/images/Pasted image 20240717222524.png",
+    "Learning/FrontEnd/Flutter/images/Pasted image 20240716222241.png",
+    "Learning/FrontEnd/Flutter/images",
+    "Learning/FrontEnd/Flutter/未命名.md",
+    "Learning/FrontEnd/Flutter/021-LayoutBuilder、AfterLayout.md",
+    "Learning/FrontEnd/Flutter/020-对齐与相对定位（Align）.md",
+    "Learning/FrontEnd/Flutter/019-层叠布局（Stack、Positioned）.md",
+    "Learning/FrontEnd/Flutter",
+    "Learning/FrontEnd",
+    "Learning"
   ]
 }
