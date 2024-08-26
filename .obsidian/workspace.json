@@ -11,8 +11,15 @@
             "id": "ed15221a4fdaaf74",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "未命名.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              }
             }
           }
         ]
@@ -81,6 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "未命名.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "未命名.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +127,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "未命名.canvas"
+              }
             }
           }
         ]
@@ -140,6 +151,7 @@
   },
   "active": "ed15221a4fdaaf74",
   "lastOpenFiles": [
+    "未命名.canvas",
     "HomePage.md",
     "如何打造自动化HomePage.md",
     "欢迎.md",
@@ -174,7 +186,6 @@
     "Learning/FrontEnd/Flutter/未命名.md",
     "Learning/FrontEnd/Flutter/021-LayoutBuilder、AfterLayout.md",
     "Learning/FrontEnd/Flutter/020-对齐与相对定位（Align）.md",
-    "Learning/FrontEnd/Flutter/019-层叠布局（Stack、Positioned）.md",
     "Learning/FrontEnd/Flutter",
     "Learning/FrontEnd",
     "Learning"
